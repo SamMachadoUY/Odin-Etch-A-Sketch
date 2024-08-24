@@ -3,50 +3,34 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 2px solid;
 }
 
 .header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 400px;
-    justify-content: space-around;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 20px;
+
 }
 
 .footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 500px;
     align-items: center;
+    width: 500px;
+    justify-content: space-between; 
+    margin-top: 20px;
 }
 
-.btns{ 
-    border-radius: 5px;
-    color:white;
-    font-size: 24px;
-}
-
-#btn-black{
-    background: red;
-}
-
-#btn-random{
-    background: green;
-}
-
-#btn-reset{
-    background: blue;
-}
-
-.container{
+.board{
+    border: 2px solid;
     width: 500px;
     height: 500px;
-    border: 2px solid;
     display: grid;
     margin-top: 20px;
-    margin-bottom: 20px;
     
-   
 }
 
